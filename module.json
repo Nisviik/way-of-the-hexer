@@ -1,0 +1,79 @@
+{
+  "id": "pf2e-way-of-the-hexer-by-nisviik",
+  "title": "PF2e Way of the Hexer by Nisviik",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "Includes content from the Way of the Hexer book for Pathfinder 2nd Edition by Nisviik.",
+  "authors": [
+    {
+      "name": "Nisviik",
+      "email": "nisviik.homebrew@gmail.com",
+      "url": "https://www.pathfinderinfinite.com/en/browse?author=Nisviik&affiliate_id=2327748&src=foundryModuleReference",
+      "discord": "nisviik",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    
+    {
+      "name": "pf2e-way-of-the-hexer-items",
+      "label": "Feats, Spells, and Items",
+      "banner": "modules/pf2e-way-of-the-hexer-by-nisviik/assets/hexer-banner-1.webp",
+      "path": "packs/pf2e-way-of-the-hexer-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "pf2e-way-of-the-hexer-journals",
+      "label": "Journals",
+      "banner": "modules/pf2e-way-of-the-hexer-by-nisviik/assets/hexer-banner-2.webp",
+      "path": "packs/pf2e-way-of-the-hexer-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "pf2e-way-of-the-hexer-actors",
+      "label": "The Iconic Hexer",
+      "banner": "modules/pf2e-way-of-the-hexer-by-nisviik/assets/hexer-banner-3.webp",
+      "path": "packs/pf2e-way-of-the-hexer-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Nisviik Homebrew",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+          {
+              "name": "Way of the Hexer",
+              "sorting": "m",
+              "packs": [
+                  "pf2e-way-of-the-hexer-items",
+                  "pf2e-way-of-the-hexer-journals",
+                  "pf2e-way-of-the-hexer-actors"
+              ]
+          }
+      ]
+    }
+  ]
+}
